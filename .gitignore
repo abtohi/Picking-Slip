@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Google Apps Script
+.clasp.json
+.google/
+
+# Configuration (Sensitive)
+src/config/Config.js
+
+# OS generated files
+.DS_Store
+Thumbs.db
