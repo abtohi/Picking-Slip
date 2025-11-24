@@ -67,7 +67,7 @@ graph TD
     E --> F[Simpan ke Sheet History]
     F --> G[Siapkan Sheet Print]
     G --> H["Update Stok Master (SyncService)"]
-    H --> I[Clear Form (Opsional)]
+    H --> I["Clear Form (Opsional)"]
 ```
 
 ---
