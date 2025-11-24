@@ -48,11 +48,11 @@ graph TD
     
     subgraph PickingSlipController
     E --> G{Cek Kolom yg Diedit}
-    G -- Kategori --> H[Update Validasi Item Code (RM/PM)]
-    G -- Item Code --> I[Auto-Fill Detail Barang]
-    G -- Area Gudang --> J[Filter Lokasi Rak]
-    G -- Location --> K[Cek Stok & Split Baris]
-    G -- Qty Req --> L[Cek Stok & Split Baris]
+    G -- Kategori --> H["Update Validasi Item Code (RM/PM)"]
+    G -- Item Code --> I["Auto-Fill Detail Barang"]
+    G -- Area Gudang --> J["Filter Lokasi Rak"]
+    G -- Location --> K["Cek Stok & Split Baris"]
+    G -- Qty Req --> L["Cek Stok & Split Baris"]
     end
 ```
 
@@ -66,7 +66,7 @@ graph TD
     C -- Sukses --> E[Hitung Wave Number]
     E --> F[Simpan ke Sheet History]
     F --> G[Siapkan Sheet Print]
-    G --> H[Update Stok Master (SyncService)]
+    G --> H["Update Stok Master (SyncService)"]
     H --> I[Clear Form (Opsional)]
 ```
 
